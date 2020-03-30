@@ -1,0 +1,231 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+.navbar
+{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo
+{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a
+{
+    margin: 15px;
+    color: dimgray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover
+{
+    color: #000;
+}
+
+.banner-area
+{
+    position: relative;
+    background-image: url(../p1_edited.jpg);
+    width: 100%;
+    height: 130vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.about-area
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: dimgray;
+    color: white;
+}
+
+.blog-area
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 4200px;
+    background-image: url(../p1_edited.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: ghostwhite;
+}
+
+.shop-area
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+
+.container
+{
+    width: 100%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container h2
+{
+    background: #0062cc;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+.container h2::after
+{
+    content: '';
+    border-top: 40px solid #0062cc;
+    left: 48px;
+    top: 34px;
+}
+
+.row
+{
+    margin-top: 30px;
+}
+
+img
+{
+    width: 100%;
+}
+
+.product-bottom .fa
+{
+    color: lightskyblue;
+    font-size: 10px;
+}
+
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.overlay
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.product-top:hover .overlay
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlay .fa
+{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.overlay .btn-secondary
+{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.text-part
+{
+    width: 65%;
+    height: 95%;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+h2
+{
+    font-size: 40px;
+    font-family: inherit;
+}
+
+p
+{
+    font-size: 22px;
+    line-height: 45px;
+}
+
+p1
+{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
