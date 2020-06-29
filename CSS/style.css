@@ -1,5 +1,5 @@
 body
-{;
+{
     margin: 0;
     padding: 0;
     font-family: inherit;
@@ -41,7 +41,7 @@ header
 
 .nav li a:hover
 {
-    color: gray;
+    color: dimgray;
 }
 
 .logo
@@ -58,7 +58,7 @@ header
 a
 {
     margin: 15px;
-    color: dimgray;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -83,7 +83,7 @@ a
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 1300px;
+    height: 1850px;
     padding-top: 30px;
 }
 
@@ -98,7 +98,10 @@ a
     width: 100%;
     height: 655px;
     padding-top: 160px;
-    background-color: dimgray;
+    background-image: url(../pic.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
     color: white;
 }
 
@@ -111,12 +114,12 @@ a
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 4400px;
-    background-image: url(../p1_edited.jpg);
+    height: 700px;
+    background-image: url(../c.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    color: ghostwhite;
+    color: floralwhite;
 }
 
 .shop-area
@@ -128,7 +131,7 @@ a
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 1050px;
+    height: 1090px;
 }
 
 .container
@@ -224,8 +227,20 @@ img
 
 .text-part
 {
+    width: 50%;
+    height: 95%;
+}
+
+.text-part1
+{
     width: 65%;
     height: 95%;
+}
+
+.text-part2
+{
+    text-align: center;
+    font-family: cursive;
 }
 
 h1
@@ -255,4 +270,27 @@ p1
 html
 {
     scroll-behavior: smooth;
+}
+
+.blog-area1
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 4400px;
+    background-image: url(../c.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: ghostwhite;
+}
+
+.imag
+{
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
